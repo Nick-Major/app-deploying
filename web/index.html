@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="about-me">
+            <h1>About me</h1>
+            <span class="info-key">Name: <span class="info-value">Nick Major</span></span>
+            <hr>
+            <span class="info-key">Profession: <span class="info-value">Developer</span></span>
+            <hr>
+            <p>Contacts: </p>
+            <address>
+                GitHub: https://github.com/Nick-Major <br>
+                Email: my_email@gmail.com
+            </address>
+        </section>
+        <form action="post.php" method="post">
+            <label for="name-field">Enter your name</label>
+            <input type="text" name="name-field" id="name-field">
+            <button class="submit-btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>
